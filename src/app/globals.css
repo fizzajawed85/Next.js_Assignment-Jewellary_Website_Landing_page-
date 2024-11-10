@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* styles/globals.css */
+@font-face {
+    font-family: 'LibraBodoni';
+    src: url('/fonts/libra-bodoni.woff2') format('woff2'),
+         url('/fonts/libra-bodoni.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'LibraBodoni', serif;
+  }
+  
